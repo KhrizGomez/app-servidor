@@ -48,7 +48,7 @@ body {
     	border-radius: 5px;
 	}
 
-	.boton-subir, .boton-generar {
+	.boton-generar {
 		width: 100%;
 		display: flex;
 		justify-content: center;  
@@ -65,8 +65,8 @@ body {
 		justify-content: center;
 		align-items: center;
 		margin: 20px auto;
-		border: 2px solid black;
 		border-radius: 8px;
+    	border: 2px solid rgb(27, 117, 5);
 	}
 
 	.encabezado{
@@ -102,5 +102,23 @@ body {
 	.logo-facultad img{
 		width: 100px;
 		height: 100px;
+	}
+
+	.btn {
+		width: 70%;
+		max-width: 200px;
+		border: none;
+		background: rgb(27, 117, 5);
+		color: white;
+		cursor: pointer;
+		padding: 18px;
+		font-size: 18px;
+		border-radius: 5px;
+		font-family: 'Open Sans', sans-serif;
+		transition: background-color 0.3s ease;
+	}
+
+	.btn:hover{
+		background: rgb(247, 148, 10);
 	}
 }

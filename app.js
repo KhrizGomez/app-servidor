@@ -24,3 +24,13 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
 });
+
+const contenedorQR = document.getElementById('contenedorQR');
+const formulario = document.getElementById('btn-generar-qr');
+
+const QR = new QRCode(contenedorQR);
+
+formulario.addEventListener('click', (e) => {
+	e.preventDefault();
+	QR.makeCode("https://khrizgomez.github.io/app-cliente/");
+});

@@ -1,0 +1,10 @@
+{
+  "type": "module",
+  "dependencies": {
+    "mssql": "^11.0.1"
+  },
+    "scripts": {
+    "test-db": "node settingSQL.js"
+  }
+
+}
