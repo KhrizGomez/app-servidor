@@ -7,29 +7,29 @@ html, body {
 
 body {
 	font-family: 'Open Sans', sans-serif;
-	display: flex;
 	justify-content: center;
 	align-items: center; 	
 }
 
-@media (max-width: 500px) 
-{
+@media (max-width: 500px) {
+
 	.contenedor-principal {                    
 		display: flex;
 		gap: 20px;
-		flex-direction: column;               
+		flex-direction: column;
+		padding: 10px;
 	}
 
 	.contenedor-arriba, .contenedor-abajo {
 		width: 100%;
-		height: auto;             
+		height: auto;
 		margin: 4px;
 		display: flex;             
 		flex-direction: column;    
 		align-items: center;
 		justify-content: flex-start;
 		box-sizing: border-box;
-		padding: 30px 0;
+		padding: 20px 0;
 	}
 
 	.fila-imagenes {
@@ -42,7 +42,7 @@ body {
 	}
 
 	.imagen {
-		object-fit:cover;
+		object-fit: cover;
 		border: 2px solid #222;
 		border-radius: 10px;
 		width: 190px;
@@ -54,28 +54,19 @@ body {
 		display: flex;
 		justify-content: center;  
 		align-items: center;   
+		width: 80%;
+		padding: 15px;
+		font-size: 16px;
 	}
 
 	.contenedorQR {
 		display: flex;
-		width: 350px;
-		height: 350px;
+		width: 300px;
+		height: 300px;
 		justify-content: center;
+		align-items: center;
 		margin: 20px auto;
-		border: 2px solid;
+		border: 2px solid black;
 		border-radius: 8px;
-		border-color: black;
 	}
-
-	/* .btn {
-		width: 70%;
-		border: none;
-		background: rosybrown;
-		color:black;
-		cursor: pointer;
-		padding: 18px;
-		font-size: 20px;
-		border-radius: 5px;
-		font-family: 'Open Sans', sans-serif;
-	} */
 }
