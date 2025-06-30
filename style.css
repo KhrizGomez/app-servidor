@@ -47,6 +47,10 @@ body {
 		border-radius: 10px;
 		width: 190px;
 		height: 250px;
+		background: rgb(247, 148, 10);
+    	border: 2px solid rgb(247, 148, 10);
+		padding: 7px 7px 30px 7px;
+    	border-radius: 5px;
 	}
 
 	.boton-subir, .boton-generar {
@@ -61,8 +65,8 @@ body {
 
 	.contenedorQR {
 		display: flex;
-		width: 300px;
-		height: 300px;
+		width: 230px;
+		height: 230px;
 		justify-content: center;
 		align-items: center;
 		margin: 20px auto;

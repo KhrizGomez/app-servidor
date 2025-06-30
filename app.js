@@ -20,7 +20,6 @@ document.addEventListener('DOMContentLoaded', function() {
         }
       }
       reader.readAsDataURL(event.target.files[0]);
-      // Opcional: limpiar el input para permitir volver a seleccionar la misma imagen
       fileInput.value = '';
     }
   });
