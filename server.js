@@ -12,14 +12,13 @@ const config = {
   }
 };
 
-async function probarConexion() { 
+async function iniciarConexion() { 
     try {
-        await mssql.connect(config);
-        console.log('Conexión exitosa');
-        await mssql.close();
+        let pool = await mssql.connect(config);
+        console.log('Conexión a BD exitosa');
     } catch (err) {
         console.error('Error de conexión:', err);
     }
 }
 
-probarConexion();
+iniciarConexion();
